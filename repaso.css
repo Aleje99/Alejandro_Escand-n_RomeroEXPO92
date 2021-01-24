@@ -1,0 +1,122 @@
+body {
+    background-image:  url("Imagenes/fondo.jpg");
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: #F6D155;
+}
+a:focus, a:hover {
+    border-bottom: 1px solid;
+}
+
+#cabecera{
+    background-color: #223A5E;
+    border-bottom: grey 5px solid;
+    text-align: center;
+    font-size: 22px;
+    font-family: "versalita";
+    font-weight: bold;
+}
+#cabecera::first-letter{
+    font-size: 24px;
+}
+
+#Indice{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.info{
+    float:left;
+    width: 15%;
+    background-color: #223A5E;
+    color:white;
+}
+
+#principal{
+    padding-left: 20%;
+    padding-right: 15%;
+}
+.p1{
+    color: brown;
+    border-bottom: red 1px solid;
+}
+
+.p2{
+    color: brown;
+    border-bottom: red 1px solid;
+    font-style: italic;
+}
+
+.p3{
+    color: brown;
+    border-bottom: red 1px solid;
+}
+
+.p4{
+    color: brown;
+}
+
+.p5{
+    color: brown;
+    border-bottom: red 1px solid;
+}
+
+table {
+    margin: auto;
+    border-collapse:collapse;
+    border-spacing: 10px;
+    text-align: center;
+}
+td{
+    padding: 10px;
+}
+table th {
+    background-color:#223A5E;
+    color:white;
+}
+ .fila_par {
+    background-color: #D49F75;
+}
+ .fila_impar {
+    background-color:#C48F65;
+}
+
+.figure {
+    margin-top: 32px;
+    margin-left: 10%;
+    background-size: 100%;
+    text-align: center;
+}
+
+.column{
+    margin:10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+img {
+    border: solid 3px grey;
+    margin: auto;
+    display: block;
+}
+
+legend {
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+#pie{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.pi{
+    border-top: grey 5px solid;
+    text-align: center;
+    background-color: #223A5E;
+    color:white;
+}
